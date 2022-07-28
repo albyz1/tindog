@@ -1,0 +1,170 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*Headings*/
+.big-heading {
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/*Navbar*/
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 6.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+}
+
+/*Sections*/
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+/*Title section*/
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/*Tite image*/
+.title-image {
+  width: 20%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 23%;
+}
+
+/*Features Section*/
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-section {
+  font-size: 1.5rem;
+}
+
+.images {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.images:hover {
+  color: #ff4c68;
+}
+
+/*Testimonial Section*/
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*Pricing*/
+.price-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.btn {
+  width: 75%;
+  margin: 5px;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
+
+.cta {
+  width: 60%;
+  margin: auto;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.button {
+  width: 20%;
+  margin: 5px;
+}
+
+#footer .container-fluid {
+  padding: 2% 15%;
+}
